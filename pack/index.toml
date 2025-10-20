@@ -2437,6 +2437,14 @@ file = "config/yungsbridges-forge-1_16.toml"
 hash = "ea4d4067fcd22f1278c2e1628d7e974c79980cdd14012fe11ea9a0b6ca5d53f2"
 
 [[files]]
+file = "mods/Compressed Blocks-forge-1.16.5-1.3.5.jar"
+hash = "aaa67689495fcf759fa2c0df8b05fd0aa1b240a4ee98b5764ca69a503d830828"
+
+[[files]]
+file = "mods/UndergardenBotanyPotsCompats-0.3.0.jar"
+hash = "d40e428c2ab7d92a7bb0c77a3662709f75d86688093f8f36fb1f272fd827794e"
+
+[[files]]
 file = "mods/addonslib.pw.toml"
 hash = "453acdafea8dc2a3ad06a3e8eca6ff04dcc96581e0c42dc4acaa40ea62c0d537"
 metafile = true
@@ -2642,11 +2650,6 @@ hash = "b95366744ef89b477fac7536938f8ed5d4209b6dc24510017cf03dd4d06918c3"
 metafile = true
 
 [[files]]
-file = "mods/cb-compressed-blocks.pw.toml"
-hash = "7c5aad80a66b00140970036db1af9a6b12b874b5d16d0e83f81c13a4db85f9d8"
-metafile = true
-
-[[files]]
 file = "mods/cb-multipart.pw.toml"
 hash = "7f6cc33cc0391ced9478a30cfb58278485091fe4e449dd5f37e94ac86ddbe291"
 metafile = true
@@ -2772,11 +2775,6 @@ hash = "b17bafa0d6c907ea021e31e856d56821ee10e1bb7513c1650e5da8398123c71e"
 metafile = true
 
 [[files]]
-file = "mods/create-compressed.pw.toml"
-hash = "1e834be839a32535e2e99ac3d0a8c4ce66b4f5e378aad2327f7c1ef91670a7b9"
-metafile = true
-
-[[files]]
 file = "mods/create-confectionery.pw.toml"
 hash = "c17c6244ae61d440c9e9bb5b2f95ffb0f3c62745f6982e5ed2ba59c16a5d5e4b"
 metafile = true
@@ -2805,6 +2803,10 @@ metafile = true
 file = "mods/create.pw.toml"
 hash = "cf6a575860bb0c9ce92aa33ccf881a6a57363914f3c83487e9743f063fef7a91"
 metafile = true
+
+[[files]]
+file = "mods/create_compressed_0.9.1_forge_1.16.5.jar"
+hash = "d6aba9688878dd3388106b495d22132054d82b09f2ef6bbfb6765102662fe583"
 
 [[files]]
 file = "mods/createaddition.pw.toml"
@@ -3087,9 +3089,8 @@ hash = "db55017f0fecb10544bc5a443896303bacb57cbca49731b374605fdaf511d626"
 metafile = true
 
 [[files]]
-file = "mods/hexerei.pw.toml"
-hash = "5c67aceab7ac130edc7e7c810e917f17ad2747f35fb37f6166eb5e5524381035"
-metafile = true
+file = "mods/hexerei-0.1.4.jar"
+hash = "eca0d56deb3eb38f8dcf29fd7849785e030bad36a61cc4edad3451c64a9cf0b7"
 
 [[files]]
 file = "mods/ice-and-fire-dragons.pw.toml"
@@ -3447,14 +3448,13 @@ hash = "ea33ab175aff6a2d4bf587bff507dab99d2235c38e41b47abcd67109881ced8d"
 metafile = true
 
 [[files]]
-file = "mods/not-enough-animations.pw.toml"
-hash = "890809d3a1c0c6a37073bdb45e43ab4785bd83aea74822b0a5bd6dbad6c5b63e"
-metafile = true
-
-[[files]]
 file = "mods/not-enough-crashes-forge.pw.toml"
 hash = "93d9d65d11722a0a636670c01b11e25db92fc17b233686a50f7ccfac6aae2514"
 metafile = true
+
+[[files]]
+file = "mods/notenoughanimations-forge-1.9.3-mc1.16.5.jar"
+hash = "c2b5dd319f29dc5bac23b8b69ddaa84ca1bd0afa1ba79226422bf29e010eef4f"
 
 [[files]]
 file = "mods/nyfs-spiders.pw.toml"
@@ -3739,11 +3739,6 @@ metafile = true
 [[files]]
 file = "mods/twilight-delight.pw.toml"
 hash = "7c8d6483f68c13f6dbe195778bd52b8ca36485c144cc1c99c99b7053e7a26b8a"
-metafile = true
-
-[[files]]
-file = "mods/undergarden-botany-pots-compats.pw.toml"
-hash = "d8697b98943c81d42be67f8e8e563338ef1ac461a1a0ad515e1755f2fbe2507f"
 metafile = true
 
 [[files]]
