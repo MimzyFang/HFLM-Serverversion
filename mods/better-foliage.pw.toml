@@ -1,0 +1,13 @@
+name = "Better Foliage"
+filename = "BetterFoliage-2.7.1-Forge-1.16.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bbc03367d43a71d2fe265463b77c4ab1573731eb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3409419
+project-id = 228529

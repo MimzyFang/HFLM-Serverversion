@@ -1,0 +1,13 @@
+name = "ForgedFabric API"
+filename = "forgedfabric-0.0.7+1.16.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cfae0f0eb6b2ae64d992f3a785deea3687f63860"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4059371
+project-id = 662687

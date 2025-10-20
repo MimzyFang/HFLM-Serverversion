@@ -1,0 +1,13 @@
+name = "Enderite Mod (for Forge/NeoForge)"
+filename = "enderitemod-1.16.5-0.8.1-forge-36.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "498cf4408c95049e4347cfad62fe93ab1df6f5d3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3308100
+project-id = 401284

@@ -1,0 +1,11 @@
+name = "HFLM Serverversion"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "fe6c75101909aae113425b053c0b50e4c49a38f34948ed8746efa3ecc29ec226"
+
+[versions]
+forge = "36.2.34"
+minecraft = "1.16.5"

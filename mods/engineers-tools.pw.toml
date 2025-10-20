@@ -1,0 +1,13 @@
+name = "Engineer's Tools"
+filename = "engineerstools-1.16.5-1.1.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a6e0b75ed58855a5b568980ac8f8bc4d4886fac6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3620297
+project-id = 319716

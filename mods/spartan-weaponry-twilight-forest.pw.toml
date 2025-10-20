@@ -1,0 +1,13 @@
+name = "Spartan Weaponry: Twilight Forest"
+filename = "spartantwilight-1.16.5-2.3.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0417df639607dcb17826c158c43930e9ea633a4a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4626364
+project-id = 533570

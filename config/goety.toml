@@ -1,0 +1,274 @@
+
+[Villagers]
+	#Wearing a Dark Helm and Robe, along with variants, causes Villagers around the Player to have a negative Reputation unless said Player has 100 or more reputation among them, Default: false
+	villagerHate = false
+	#Casting Spell in the presence of Villagers will cause the Player to lose a number of Reputation, set 0 to disable, Default: 0
+	#Range: > 0
+	villagerHateSpells = 0
+	#Whether Villagers are able to become secret Cultists, Default: true
+	cultistSpread = true
+
+[Blocks]
+	#Dead Sand can Spread to other Blocks, Default: true
+	deadSandSpread = true
+	# Add mobs that Hook Bells don't work on. To do so, enter the namespace ID of the mob, like 'minecraft:zombie, minecraft:skeleton'
+	hookBellBlackList = []
+	#Dead Sandstone have a 5% chance of spreading itself instead of just Dead Sands, disable so that they only spread Dead Sands, Default: false
+	deadSandstoneSpread = false
+	#Dead Sand will convert nearby Water Blocks into Quicksand Blocks, Default: true
+	deadSandQuicksand = true
+	#Allows special mobs to spawn/converted when there's Dead Sand around, Default: true
+	deadSandMobs = true
+	#Dark Cloud will be produced if the Dead Sand cannot see the sky, Default: true
+	deadSandDarkSkyNoOcclude = true
+	#Dead Sand will produce a Dark Cloud at the height of the world if surrounded by other Dead Blocks, Default: false
+	deadSandDarkSky = false
+	#The amount of Soul Energy used up to smelt items per second, Default: 1
+	#Range: > 0
+	soulKilnFuel = 1
+	#Dead Sands will desiccate mobs, slowly killing them, Default: true
+	deadSandDesiccate = true
+
+["World Generation"]
+	#Gloom Trees Generates in the World, Default: true
+	gloomTreeGen = true
+	#Murk Trees Generates in the World, Default: true
+	murkTreeGen = true
+	#Totems Generates in the World, Default: true
+	totemGen = true
+
+["Soul Taken"]
+	#Non-Undead Piglin Killed, Default: 10
+	#Range: > 0
+	piglinSouls = 10
+	#Players Killed, Default: 100
+	#Range: > 0
+	playerSouls = 100
+	#Ender Dragon Killed, Default: 1000
+	#Range: > 0
+	enderDragonSouls = 1000
+	#Others Killed, Default: 5
+	#Range: > 0
+	otherSouls = 5
+	#Anthropods Killed, Default: 5
+	#Range: > 0
+	anthropodSouls = 5
+	#Villagers Killed, Default: 100
+	#Range: > 0
+	villagerSouls = 100
+	#Illagers, Witches, Cultists Killed, Default: 25
+	#Range: > 0
+	illagerSouls = 25
+	#Undead Killed, Default: 5
+	#Range: > 0
+	undeadSouls = 5
+
+[Lich]
+	#Undead Mobs will not attack you if you're a Lich and will even defend you if you're attack by another mob and wearing the Necro Set, Default: true
+	lichUndeadFriendly = true
+	#If Villagers provide negative Reputation to Liches and non-Player Iron Golems are automatically aggressive against them, Default: true
+	lichVillagerHate = true
+	#How much health Lich Players heals using Soul Energy, Default: 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	lichHealCost = 1.0
+	#Whether the player needs to read a Forbidden Scroll to start the Potion of Transformation ritual, Default: true
+	lichScrollRequirement = true
+	#How many seconds until Lich Players heals using Soul Energy, Default: 1
+	#Range: > 0
+	lichHealSeconds = 1
+	#Enable to make Liches 85% more resistant to Magic Attacks, Default: false
+	lichMagicResist = false
+	#If Lich Undead Friendly is set to true, Only undead that have lower than 50 Hearts are friendly, Default: true
+	lichPowerfulHostile = true
+	#Enable Liches healing using Soul Energy, Default: true
+	lichSoulHeal = true
+	#Wearing Helmet in Sunlight as a Lich periodically damages it, Default: true
+	lichDamageHelmet = true
+	#Enable to get infinite Night Vision when being a Lich. If set true, wearing Fel Helm will no longer give Blindness during day, Default: true
+	lichNightVision = true
+
+[Mobs]
+	#Chance for the Fanatic mob to spawn with a Pitchfork, Default: 16
+	#Range: > 0
+	fanaticPitchforkChance = 16
+	#Whether Goety Mobs can spawn in Overworld-like modded dimensions, Default: false
+	interDimensionalMobs = false
+	#Whether Wraiths should teleport towards their targets if they can't see them instead of just teleporting away when they're near them, Default: true
+	wraithAggressiveTeleport = true
+	#Whether Cultists will appear in raids if players are nearby, Default: false
+	cultistRaid = false
+	#Maximum amount of Mutant Rabbits can spawn, Default: 16
+	#Range: 0 ~ 100
+	mutatedRabbitMax = 16
+	#Spawn Weight for Wraith, Default: 20
+	#Range: > 0
+	wraithSpawnWeight = 20
+	#Whether Cultists will occasionally spawn within the Nether in groups much akin to Patrols, Default: true
+	cultistPilgrimage = true
+	#Spawn Weight for Dreden, Default: 20
+	#Range: > 0
+	dredenSpawnWeight = 20
+	#Whether Mobs with Tall Heads(ie. Villagers, Illagers, etc.) will drop Tall Skulls, Default: true
+	tallSkullDrop = true
+	#Whether Witches will convert to Beldams if near Cultists, Default: true
+	witchConversion = true
+	#Gives Apostle an even more fancier death animation, Default: false
+	fancierApostleDeath = false
+	#Spawn Weight for Urbhadhach, Default: 16
+	#Range: > 0
+	urbhadhachSpawnWeight = 16
+	#Whether Urbhadhachs try to enthrall baby mobs to it, Default: false
+	urbhadhachEnthrall = false
+	#Viziers spawn Vexes instead of Irks, Default: false
+	vizierMinion = false
+	#Chance for the Fanatic mob to spawn with a Witch's Bomb, Default: 4
+	#Range: > 0
+	fanaticWitchBombChance = 4
+	#Whether Golden King Fish Mob can spawn, Default: true
+	goldenKingSpawn = true
+
+[General]
+	#Arca will save the Player if past Totem Maximum Soul Count, Default: true
+	arcaUndying = true
+	#Totem of Souls will save the Player if full of Soul Energy and its in Curio Slot or inventory, Default: true
+	totemUndying = true
+	#How much Souls is consumed when crafting with Totem, Default: 1
+	#Range: > 0
+	craftSouls = 1
+	#Move where the equipped Focus is located vertically from its original position (- = Up, + = Down), Default: 0
+	#Range: > -2147483647
+	focusGuiVertical = 0
+	#Gives Players a Totem of Souls when first entering World, Default: false
+	starterTotem = false
+	#Bosses from the Mod has custom Music Playing. Default: true
+	bossMusic = true
+	#Vertical Position of where the Soul Energy Bar is located, Default: -5
+	#Range: > -2147483647
+	soulGuiVertical = -5
+	#Horizontal Position of where the Soul Energy Bar is located, Default: 100
+	#Range: > -2147483647
+	soulGuiHorizontal = 100
+	#Show the Soul Energy Bar if Player has Totem of Souls/Arca, Default: true
+	soulGuiShow = true
+	#Gives Players the Black Book when first entering World and Patchouli is loaded, Default: false
+	starterBook = false
+	#Whether Wands and Staffs show cooldown if the focus it's equipped with is, Default: true
+	showWandCooldown = true
+	#Move where the equipped Focus is located horizontally from its original position (- = Left, + = Right), Default: 0
+	#Range: > -2147483647
+	focusGuiHorizontal = 0
+	#Show currently equipped focus on Wand/Staff in Gui, Default: true
+	focusGuiShow = true
+	#Show numerical amount of Souls on the Soul Energy Bar, Default: false
+	showNumber = false
+	#Nether Meteors deals environmental damage. WARNING: Causes lots of lag. Default: false
+	apocalypseMode = false
+	#Bosses from the Mod has custom looking Boss Bars. Default: true
+	specialBossBar = true
+	#Totem Maximum Soul Count and Threshold to save the Player, Default: 10000
+	#Range: > 10
+	maxSouls = 10000
+	#Arca Maximum Soul Count, Default: 100000
+	#Range: > 10
+	maxArcaSouls = 100000
+	#Allows player movement if Focus/Brew Wheel are open, Default: true
+	wheelGuiMovement = true
+
+["Structure Generation"]
+	#Spacing for Cursed Graveyards, Default: 32
+	#Range: > 0
+	cursedGraveyardSpacing = 32
+	#Spacing for Salvaged Forts, Default: 32
+	#Range: > 0
+	salvagedFortSpacing = 32
+	#Separation for Dark Manors, Default: 20
+	#Range: > 0
+	darkManorSeparation = 20
+	#Portal Outpost Generates in the World, Default: true
+	portalOutpostGen = true
+	#Separation for Ruined Rituals, Default: 10
+	#Range: > 0
+	ruinedRitualSeparation = 10
+	#Spacing for Ruined Rituals, Default: 45
+	#Range: > 0
+	ruinedRitualSpacing = 45
+	#Spacing for Decrepit Forts, Default: 32
+	#Range: > 0
+	decrepitFortSpacing = 32
+	#Crimson Shrine Generates in the World, Default: true
+	crimsonShrineGen = true
+	#Spacing for Warped Shrines, Default: 32
+	#Range: > 0
+	warpedShrineSpacing = 32
+	#Decrepit Fort Generates in the World, Default: true
+	decrepitFortGen = true
+	#Separation for Valley Shrines, Default: 10
+	#Range: > 0
+	valleyShrineSeparation = 10
+	#Separation for Decrepit Forts, Default: 8
+	#Range: > 0
+	decrepitFortSeparation = 8
+	#Spacing for Dark Manors, Default: 60
+	#Range: > 0
+	darkManorSpacing = 60
+	#Spacing for Crimson Shrines, Default: 32
+	#Range: > 0
+	crimsonShrineSpacing = 32
+	#Valley Shrine Generates in the World, Default: true
+	valleyShrineGen = true
+	#Separation for Portal Outposts, Default: 20
+	#Range: > 0
+	portalOutpostSeparation = 20
+	#Separation for Salvaged Forts, Default: 8
+	#Range: > 0
+	salvagedFortSeparation = 8
+	#Cursed Graveyard Generates in the World, Default: true
+	cursedGraveyardGen = true
+	#Separation for Cursed Graveyards, Default: 5
+	#Range: > 0
+	cursedGraveyardSeparation = 5
+	#Separation for Crimson Shrines, Default: 10
+	#Range: > 0
+	crimsonShrineSeparation = 10
+	#Spacing for Valley Shrines, Default: 32
+	#Range: > 0
+	valleyShrineSpacing = 32
+	#Salvaged Fort Generates in the World, Default: true
+	salvagedFortGen = true
+	#Dark Manor Generates in the World, Default: true
+	darkManorGen = true
+	#Warped Shrine Generates in the World, Default: true
+	warpedShrineGen = true
+	#Separation for Warped Shrines, Default: 10
+	#Range: > 0
+	warpedShrineSeparation = 10
+	#Spacing for Portal Outposts, Default: 40
+	#Range: > 0
+	portalOutpostSpacing = 40
+	#Ruined Ritual Generates in the World, Default: true
+	ruinedRitualGen = true
+
+[Illagers]
+	#Spawn Frequency for Illagers Hunting the Player, Default: 12000
+	#Range: > 0
+	illagerAssaultSpawnFreq = 12000
+	#Whether Enviokers, Inquillagers and Conquillagers can steal Totems of Souls or Totems of Undying, Default: true
+	illagerSteal = true
+	#Whether Enviokers, Inquillagers and Conquillagers can join Raids, Default: true
+	specialIllagerRaid = true
+	#The maximum amount of Soul Energy the Player has that is taken consideration for the Assaults, Default: 30000
+	#Range: > 0
+	illagerAssaultLimit = 30000
+	#Spawn Chance for Illagers Hunting the Player every Infamy Spawn Frequency, the lower the more likelier, Default: 5
+	#Range: > 0
+	illagerAssaultSpawnChance = 5
+	#Whether Illague Effect can spread from non Conquillagers that has the effect, Default: true
+	illagueSpread = true
+	#Hitting the Illager Assault Limit of Soul Energy have a chance of giving Player Bad Omen effect, Default: true
+	soulEnergyBadOmen = true
+	#Special Illagers Spawning based of Player's Soul Energy amount, Default: true
+	illagerAssault = true
+	#How much Soul Energy the Player has is required for Special Illagers to spawn, Default: 2500
+	#Range: > 0
+	illagerAssaultThreshold = 2500
+

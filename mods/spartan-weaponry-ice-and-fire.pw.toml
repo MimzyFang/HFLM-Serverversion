@@ -1,0 +1,13 @@
+name = "Spartan Weaponry: Ice and Fire"
+filename = "swiaf-1.16.5-1.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ae736433dd8b5952d77caf524abe3443d218dfe2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4020994
+project-id = 606315

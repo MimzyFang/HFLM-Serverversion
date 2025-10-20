@@ -1,0 +1,379 @@
+
+[Attributes]
+
+	[Attributes.Cultists]
+		#How much Max Health Channeller have, Default: 32.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		channellerHealth = 32.0
+		#How much Max Health Zealot have, Default: 20.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		zealotHealth = 20.0
+		#How much Max Health Malghast have, Default: 20.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		malghastHealth = 20.0
+		#How much Max Health Beldam have, Default: 26.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		beldamHealth = 26.0
+		#How much Max Health Disciple have, Default: 26.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		discipleHealth = 26.0
+
+		[Attributes.Cultists.Thug]
+			#How much damage Thug deals, Default: 7.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			thugDamage = 7.0
+			#How much Max Health Thug have, Default: 50.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			thugHealth = 50.0
+
+		[Attributes.Cultists."Zombified Piglin Brute Servant"]
+			#How much damage Zombified Piglin Brute Servants deals, Default: 7.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombifiedPiglinBruteServantDamage = 7.0
+			#How much Max Health Zombified Piglin Brute Servants have, Default: 50.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombifiedPiglinBruteServantHealth = 50.0
+
+		[Attributes.Cultists.Fanatic]
+			#How much Max Health Fanatic have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			fanaticHealth = 20.0
+			#How much damage Fanatic deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			fanaticDamage = 3.0
+
+		[Attributes.Cultists."Crimson Spider"]
+			#How much Max Health Crimson Spider have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			crimsonSpiderHealth = 24.0
+			#How much damage Crimson Spider deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			crimsonSpiderDamage = 2.0
+
+		[Attributes.Cultists."Zombie Villager Servant"]
+			#How much Max Health Zombie Villager Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieVillagerServantHealth = 20.0
+			#How much damage Zombie Villager Servants deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieVillagerServantDamage = 3.0
+
+		[Attributes.Cultists."Skeleton Villager Servant"]
+			#How much Max Health Skeleton Villager Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			skeletonVillagerServantHealth = 20.0
+			#How much damage Skeleton Villager Servants deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			skeletonVillagerServantDamage = 2.0
+
+		[Attributes.Cultists."Zombified Piglin Servant"]
+			#How much Max Health Zombified Piglin Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombifiedPiglinServantHealth = 20.0
+			#How much damage Zombified Piglin Servants deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombifiedPiglinServantDamage = 5.0
+
+	[Attributes.General]
+
+		[Attributes.General.Dreden]
+			#How much Max Health Dredens have, Default: 30.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			dredenHealth = 30.0
+			#How much damage Dreden deals, Default: 4.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			dredenDamage = 4.0
+
+		[Attributes.General.Urbhadhach]
+			#How much Max Health Urbhadhach have, Default: 32.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			urbhadhachHealth = 32.0
+			#How much damage Urbhadhach deals, Default: 6.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			urbhadhachDamage = 6.0
+
+		[Attributes.General."Loyal Spider"]
+			#How much Max Health Loyal Spider initially have, Default: 16.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			loyalSpiderHealth = 16.0
+			#How much damage Loyal Spider initially deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			loyalSpiderDamage = 2.0
+
+		[Attributes.General.Hoglord]
+			#How much damage Hoglord deals, Default: 6.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			hoglordDamage = 6.0
+			#How much Max Health Hoglord have, Default: 200.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			hoglordHealth = 200.0
+
+		[Attributes.General.Wraith]
+			#How much damage Wraith deals, Default: 4.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			wraithDamage = 4.0
+			#How much Max Health Wraiths have, Default: 25.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			wraithHealth = 25.0
+
+		[Attributes.General."Skull Lord"]
+			#How much damage Bone Lord deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			boneLordDamage = 3.0
+			#How much damage Skull Lord deals, Default: 6.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			skullLordDamage = 6.0
+			#How much Max Health Skull Lord have, Default: 100.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			skullLordHealth = 100.0
+			#How much Max Health Bone Lord have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			boneLordHealth = 20.0
+
+	[Attributes."Dead Sand Mobs"]
+		#How much Max Health Boomer have, Default: 20.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		boomerHealth = 20.0
+		#How much Max Health Marcire have, Default: 20.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		marcireHealth = 20.0
+
+		[Attributes."Dead Sand Mobs".Desiccated]
+			#How much Max Health Desiccated have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			desiccatedHealth = 20.0
+			#How much damage Desiccated deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			desiccatedDamage = 3.0
+
+		[Attributes."Dead Sand Mobs".Blight]
+			#How much damage Blight deals, Default: 4.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			blightDamage = 4.0
+			#How much Max Health Blight have, Default: 25.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			blightHealth = 25.0
+
+		[Attributes."Dead Sand Mobs".Fallen]
+			#How much damage Fallen deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			fallenDamage = 3.0
+			#How much Max Health Fallen have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			fallenHealth = 20.0
+
+		[Attributes."Dead Sand Mobs"."Dune Spider"]
+			#How much Max Health Dune Spider have, Default: 16.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			duneSpiderHealth = 16.0
+			#How much damage Dune Spider deals, Default: 4.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			duneSpiderDamage = 4.0
+
+	[Attributes.Bosses]
+
+		[Attributes.Bosses.Apostle]
+			#Set Apostle's spell damage (ie, Fire Tornadoes, Fire Blasts, Roars), Default: 6.0
+			#Range: 6.0 ~ 1.7976931348623157E308
+			apostleMagicDamage = 6.0
+			#Multiplies Apostle's Bow damage, Default: 4
+			#Range: > 2
+			apostleBowDamage = 4
+			#How much Max Health Apostles have, Default: 320.0
+			#Range: 100.0 ~ 1.7976931348623157E308
+			apostleHealth = 320.0
+			#How much natural Armor Points Apostles have, Default: 12.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			apostleArmor = 12.0
+			#How much natural Toughness Points Apostles have, Default: 6.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			apostleToughness = 6.0
+			#The maximum amount of damage an Apostle can attain per hit, Default: 20
+			#Range: > 1
+			apostleDamageCap = 20
+
+		[Attributes.Bosses.Vizier]
+			#How much Max Health Viziers have, Default: 200.0
+			#Range: 100.0 ~ 1.7976931348623157E308
+			vizierHealth = 200.0
+			#The maximum amount of damage a Vizier can attain per hit, Default: 20
+			#Range: > 1
+			vizierDamageCap = 20
+
+	[Attributes."Summoned Mobs"]
+
+		[Attributes."Summoned Mobs"."Husk Servant"]
+			#How much damage Husk Servants deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			huskServantDamage = 3.0
+			#How much Max Health Husk Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			huskServantHealth = 20.0
+			#How much natural armor points Husk Servants have, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			huskServantArmor = 2.0
+
+		[Attributes."Summoned Mobs"."Drowned Servant"]
+			#How much damage Drowned Servants deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			drownedServantDamage = 3.0
+			#How much Max Health Drowned Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			drownedServantHealth = 20.0
+			#How much natural armor points Drowned Servants have, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			drownedServantArmor = 2.0
+
+		[Attributes."Summoned Mobs"."Sunken Skeleton Servant"]
+			#How much Max Health Sunken Skeleton Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			sunkenSkeletonServantHealth = 20.0
+			#How much damage Sunken Skeleton Servants deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			sunkenSkeletonServantDamage = 2.0
+
+		[Attributes."Summoned Mobs"."Zombie Vindicator"]
+			#How much Max Health Zombie Vindicators have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieVindicatorHealth = 24.0
+			#How much damage Zombie Vindicators deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieVindicatorDamage = 5.0
+			#How much natural armor points Zombie Vindicators have, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieVindicatorArmor = 2.0
+
+		[Attributes."Summoned Mobs"."Stray Servant"]
+			#How much damage Stray Servants deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			strayServantDamage = 2.0
+			#How much Max Health Stray Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			strayServantHealth = 20.0
+
+		[Attributes."Summoned Mobs"."Skeleton Pillager"]
+			#How much Max Health Skeleton Pillagers have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			skeletonPillagerHealth = 24.0
+			#How much damage Skeleton Pillagers deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			skeletonPillagerDamage = 5.0
+
+		[Attributes."Summoned Mobs"."Jungle Zombie Servant"]
+			#How much damage Jungle Zombie Servants deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			jungleZombieServantDamage = 3.0
+			#How much natural armor points Jungle Zombie Servants have, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			jungleZombieServantArmor = 2.0
+			#How much Max Health Jungle Zombie Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			jungleZombieServantHealth = 20.0
+
+		[Attributes."Summoned Mobs".Vex]
+			#How much Max Health Summoned Vexes have, Default: 14.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			summonedVexHealth = 14.0
+			#How much damage Summoned Vexes deals, Default: 4.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			summonedVexDamage = 4.0
+
+		[Attributes."Summoned Mobs"."Zombie Servant"]
+			#How much natural armor points Zombie Servants have, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieServantArmor = 2.0
+			#How much Max Health Zombie Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieServantHealth = 20.0
+			#How much damage Zombie Servants deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieServantDamage = 3.0
+
+		[Attributes."Summoned Mobs"."Frozen Zombie Servant"]
+			#How much natural armor points Frozen Zombie Servants have, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			frozenZombieServantArmor = 2.0
+			#How much damage Frozen Zombie Servants deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			frozenZombieServantDamage = 3.0
+			#How much Max Health Frozen Zombie Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			frozenZombieServantHealth = 20.0
+
+		[Attributes."Summoned Mobs"."Undead Wolf Servant"]
+			#How much damage Undead Wolf when summoned with Necro Robes deals, Default: 4.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			necroUndeadWolfDamage = 4.0
+			#How much damage Undead Wolf deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			undeadWolfDamage = 2.0
+			#How much Max Health Undead Wolf have, Default: 8.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			undeadWolfHealth = 8.0
+			#How much Max Health Undead Wolf when summoned with Necro Robes have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			necroUndeadWolfHealth = 20.0
+
+		[Attributes."Summoned Mobs"."Phantom Servant"]
+			#How much Max Health Phantom Servants and variants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			phantomServantHealth = 20.0
+			#How much damage Phantom Servants and variants deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			phantomServantDamage = 2.0
+
+		[Attributes."Summoned Mobs"."Skeleton Servant"]
+			#How much damage Skeleton Servants and variants deals, Default: 3.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			skeletonServantDamage = 3.0
+			#How much Max Health Skeleton Servants and variants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			skeletonServantHealth = 20.0
+
+		[Attributes."Summoned Mobs"."Mossy Skeleton Servant"]
+			#How much damage Mossy Skeleton Servants deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			mossySkeletonServantDamage = 2.0
+			#How much Max Health Mossy Skeleton Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			mossySkeletonServantHealth = 20.0
+
+		[Attributes."Summoned Mobs".Rottreant]
+			#How much damage Rottreant deals, Default: 6.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			rottreantDamage = 6.0
+			#How much Max Health Rottreant have, Default: 75.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			rottreantHealth = 75.0
+
+	[Attributes.Illagers]
+		#How much Max Health Conquillager have, Default: 24.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		conquillagerHealth = 24.0
+
+		[Attributes.Illagers.Envioker]
+			#How much Max Health Tormentor have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			tormentorHealth = 24.0
+			#How much Max Health Envioker have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			enviokerHealth = 24.0
+			#How much damage Envioker deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			enviokerDamage = 5.0
+			#How much damage Tormentor deals, Default: 4.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			tormentorDamage = 4.0
+
+		[Attributes.Illagers.Inquillager]
+			#How much Max Health Inquillager have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			inquillagerHealth = 24.0
+			#How much damage Inquillager deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			inquillagerDamage = 5.0
+
+[General]
+	#Allows newly Configured Attributes to override pre-existing ones, Default: true
+	overrideAttributes = true
+

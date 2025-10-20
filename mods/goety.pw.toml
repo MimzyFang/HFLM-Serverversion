@@ -1,0 +1,13 @@
+name = "Goety - The Dark Arts"
+filename = "Goety-1.37.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b58a7b9ed26b4a0b6fee7d39903644c2bc40ecec"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5093000
+project-id = 586095

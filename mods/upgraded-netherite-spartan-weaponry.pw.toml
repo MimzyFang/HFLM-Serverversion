@@ -1,0 +1,13 @@
+name = "Upgraded Netherite : Spartan Weaponry"
+filename = "upgradednetherite_spartan-1.16.5-1.0.0.2-beta.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b880f27bfb83eb43a76d3f37dbdcb161c93fc6a8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4496213
+project-id = 678847

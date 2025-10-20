@@ -1,0 +1,103 @@
+
+[Equipment]
+	#How much base damage Dark Staffs deals, Default: 4.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	darkStaffDamage = 4.0
+
+	[Equipment."Warped Spear"]
+		#How much damage Warped Spear deals, Default: 10.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		warpedSpearDamage = 10.0
+		#How many uses before Warped Spear breaks, Default: 250
+		#Range: > 1
+		warpedSpearDurability = 250
+		#Define the Enchantability for Warped Spear, higher number the better, Default: 1
+		#Range: > 1
+		warpedSpearEnchantability = 1
+
+	[Equipment.Robes]
+		#Whether wearing Necro Set will cause Undead mobs to be neutral, Default: true
+		necroSetUndeadNeutral = true
+		#Amount of Souls needed to repair Dark Armored Robes per second, Default: 10
+		#Range: > 1
+		darkArmoredRobeRepairSouls = 10
+		#Amount of Soul Energy Necro Boots of Wander gives when running on Soul Sand Blocks, Default: 1
+		#Range: > 1
+		necroSoulSandSouls = 1
+		#Whether wearing Fel Robes will cause Creeper mobs to be neutral, Default: true
+		felRobesCreeperNeutral = true
+		#Whether wearing Fel Helm will cause Arthropod mobs to be neutral, Default: true
+		felHelmArthropodNeutral = true
+		#Whether wearing Fel Boots of Wander will cause Slime mobs to be neutral, Default: true
+		felBootsSlimeNeutral = true
+
+	[Equipment.Curios]
+		#The total amount of Rotten Flesh a Pendant of Hunger can hold, Default: 256
+		#Range: > 1
+		pendantOfHungerLimit = 256
+		#Amount of Souls needed to repair certain Equipments per second, Default: 5
+		#Range: > 1
+		darkArmoredRobeRepairSouls = 5
+		#Amount of Soul Energy Emerald Amulet gives every 5 seconds, Default: 1
+		#Range: > 1
+		emeraldAmuletSouls = 1
+		#Amount of Soul Energy Witch's Bow required to shoot a tipped Arrow, Default: 25
+		#Range: > 1
+		witchBowSouls = 25
+
+	[Equipment."Philosopher's Mace"]
+		#Define the Enchantability for Philosopher's Mace, higher number the better, Default: 20
+		#Range: > 1
+		philosophersMaceEnchantability = 20
+		#How much damage Philosopher's Mace deals, Default: 9.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		philosophersMaceDamage = 9.0
+		#How many uses before the Philosopher's Mace breaks, Default: 128
+		#Range: > 1
+		philosophersMaceDurability = 128
+
+	[Equipment."Frost Tools"]
+		#Define the Mining Level for Frost Tools (0 = Wood/Gold, 1 = Stone, 2 = Iron, 3 = Diamond, 4 = Netherite, 5+ = Above Netherite), Default: 3
+		#Range: > 0
+		frostTierLevel = 3
+		#How fast Frost Items destroy blocks, higher number the faster (Hint: Iron has 6.0 Mining Speed), Default: 7.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		frostTierMiningSpeed = 7.0
+		#How many uses before a Frost Item breaks, Default: 1000
+		#Range: > 1
+		frostTierDurability = 1000
+		#How much damage Frost items deals, for swords the damage defined is added by 4.0 so by default, a Frost Sword would deal 6.5 Damage, Default: 2.5
+		#Range: 1.0 ~ 1.7976931348623157E308
+		frostTierDamage = 2.5
+		#Define the Enchantability for Frost Items, higher number the better, Default: 20
+		#Range: > 1
+		frostTierEnchantability = 20
+
+	[Equipment.Scythes]
+		#How much damage Death Scythe deals, the configured number is added to Scythe Base Damage, Default: 4.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		deathScytheDamage = 4.0
+		#How many uses before Death Scythe breaks, Default: 444
+		#Range: > 1
+		deathScytheDurability = 444
+		#How fast it takes to fully swing a Scythe with item offhand and not wearing Grave Gloves. The lower the number the slower it takes to recharge, Default: 0.6
+		#Range: 0.0 ~ 1.7976931348623157E308
+		scytheAttackSpeed = 0.6
+		#Scythe Slashes from Death Scythe breaks blocks that regular Scythes easily breaks, Default: true
+		scytheSlashBreaks = true
+		#How much base damage Scythes deals, the damage added depends on material the scythe is made off (ie. Iron = 2.0), Default: 5.5
+		#Range: 1.0 ~ 1.7976931348623157E308
+		scytheBaseDamage = 5.5
+		#Define the Enchantability for Death Scythe, higher number the better, Default: 22
+		#Range: > 1
+		deathScytheEnchantability = 22
+		#Amount of Soul Energy Dark Scythe gives when hitting mob(s), Default: 1
+		#Range: > 1
+		darkScytheSouls = 1
+
+[General]
+	#Fire Spawn Cage are enabled, Default: true
+	fireSpawnCage = true
+	#Certain Items repair themselves using Soul Energy, Default: true
+	soulRepair = true
+

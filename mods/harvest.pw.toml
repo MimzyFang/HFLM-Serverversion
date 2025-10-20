@@ -1,0 +1,13 @@
+name = "Harvest"
+filename = "harvest-1.16.3-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f9618079d9456c23133ab89909fdd1c9fbae56b8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3087381
+project-id = 355542

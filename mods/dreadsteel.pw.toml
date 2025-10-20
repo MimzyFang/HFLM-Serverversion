@@ -1,0 +1,13 @@
+name = "Dreadsteel"
+filename = "dreadsteel-1.16.5-1.1.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "18751a87e6816462c4aacdba85dde29ced985097"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4655734
+project-id = 630764

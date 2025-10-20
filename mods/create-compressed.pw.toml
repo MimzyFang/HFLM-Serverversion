@@ -1,0 +1,13 @@
+name = "Create Compressed"
+filename = "create_compressed_0.9.1_forge_1.16.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "833fc1c709c1829835c4aee952a20ca3bd9d9418"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4714476
+project-id = 886773

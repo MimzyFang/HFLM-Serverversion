@@ -1,0 +1,13 @@
+name = "Thermal Extra"
+filename = "ThermalExtra 1.16.5-1.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "895d6dc66bcffecab3b39434ef464ca595f0ead8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4035821
+project-id = 573674
